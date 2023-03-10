@@ -1,7 +1,9 @@
 # Pre_entrega3
 
 La pagina desarrollada es sobre una tienda de zapatos.
+
 Primero entrar a la carpeta App.
+
 En models.py se encuentran las clases Usuarios, Compras y Productos, cada una con tres atributos para completar en el panel de administracion ingresando a /admin/ 
 desde la raiz en la url del navegador o bien en sus respectivos formularios ingresando a la url App/ usuariosformulario, comprasformulario, y productosformulario.
 Para buscar un usuario ingresar a la url App/ BusquedaUsuarios, BusquedaCompras y BusquedaProducto.

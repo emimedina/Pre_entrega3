@@ -3,16 +3,11 @@
 La pagina desarrollada es sobre una tienda de zapatos.
 
 Primero entrar a la carpeta App.
-
+En templates se encuentran todos los html utilizados. Todos los html heredan del html padre2.html.
 En models.py se encuentran las clases Usuarios, Compras y Productos, cada una con tres atributos para completar en el panel de administracion ingresando a /admin/ 
-desde la raiz en la url del navegador o bien en sus respectivos formularios ingresando a la url App/ usuariosformulario, comprasformulario, y productosformulario.
-Para buscar un usuario ingresar a la url App/ BusquedaUsuarios, BusquedaCompras y BusquedaProducto.
-
-Desde el inicio ingresando con la url en /App se puede ver un menu de navegacion para recorrer con las opciones Inicio, Productos, Locales y Contactanos.
-
+desde la raiz en la url del navegador o bien en sus respectivos formularios en las opciones del encabezado Agregar/buscar usuarios, compras y productos.
 En views.py se encuentran todas las funciones y en urls.py todas las urls
+En la carpeta static se encuentran los 3 archivos descargados de start bootstrap para realizar esta web.
 
 
 
-
-pd: perdon la desprolijidad no llegue con el tiempo a hacerlo bien

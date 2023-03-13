@@ -1,11 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BusquedaProductos</title>
-</head>
+{% extends 'padre2.html' %}
+ {% load static %}
+ {% block contenidoquecambia %}
+<body>
+    <br>
+    <h1>Buscar producto</h1>
+    <br>
 <body>
     <form action="BuscarP/" method="GET">
         <input type="text" name='producto' id='producto'>
@@ -15,4 +14,5 @@
     </form>
 
 </body>
+{% endblock %}
 </html>

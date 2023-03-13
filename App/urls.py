@@ -12,7 +12,7 @@ urlpatterns = [
     path('comprasformulario', views.ComprasFormulario, name='ComprasFormularios'),
     path('BusquedaCompras', views.BusquedaCompras, name='busquedacompras'),
     path('BuscarC/', views.BuscarC, name='buscarc'),
-    path('productosformulario', views.ProductosFormulario, name='produtosformulario'),
+    path('productosformulario', views.ProductosFormulario, name='productosformulario'),
     path('BusquedaProductos', views.BusquedaProductos, name='busquedaproductos'),
     path('BuscarP/', views.BuscarP, name= 'buscarp'),
 
